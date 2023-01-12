@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         tvinput?.append((view as Button).text)
         lastnumeric=true
 
+
     }
     fun onclr(view: View){
         tvinput?.text= ""
@@ -137,9 +138,12 @@ class MainActivity : AppCompatActivity() {
      }
 
     fun percent (view: View){
+        if (!lastnumeric || lastdot){
+            return
+        }
         var tvValue: String = tvinput?.text.toString()
 
-        if (!tvValue.contains("+") || !tvValue.contains("-") || !tvValue.contains("×") || !tvValue.contains("÷")) {
+        if (!tvValue.contains("+") || !tvValue.contains("-") || !tvValue.contains("×") || !tvValue.contains("÷") || !tvValue.isEmpty()) {
             var Value = tvinput?.text.toString()
             var exvalue = Value.toDouble()
             tvinput?.text = removeZeroAfterDot((exvalue / 100).toString())

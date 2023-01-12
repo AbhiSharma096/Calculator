@@ -58,7 +58,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:padding="5dp"
                 android:text="7"
@@ -73,7 +73,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:padding="5dp"
                 android:text="8"
@@ -87,7 +87,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:padding="5dp"
                 android:text="9"
@@ -101,7 +101,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
-                android:background="@drawable/round_teal"
+                android:background="@drawable/rounb_back_ripple"
                 android:onClick="backspace"
                 android:padding="5dp"
                 android:text="⌫"
@@ -127,7 +127,7 @@
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:layout_margin="3dp"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:text="4" />
 
@@ -141,8 +141,8 @@
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:layout_margin="3dp"
-                android:background="@drawable/round"
-            android:onClick="Ondigit"
+                android:background="@drawable/button_ripple"
+                android:onClick="Ondigit"
                 android:text="5" />
 
             <Button
@@ -155,7 +155,7 @@
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:layout_margin="3dp"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:text="6" />
 
@@ -169,8 +169,7 @@
                 android:textSize="30sp"
                 android:padding="5dp"
                 android:layout_margin="3dp"
-                android:background="@drawable/round_red"
-                android:onClick="OnOperator"
+                android:background="@drawable/ripple_operators"                android:onClick="OnOperator"
                 android:text="×" />
         </LinearLayout>
 
@@ -191,7 +190,7 @@
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:layout_margin="3dp"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:text="1" />
 
@@ -205,7 +204,7 @@
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:layout_margin="3dp"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:text="2" />
 
@@ -219,7 +218,7 @@
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:layout_margin="3dp"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:text="3" />
 
@@ -233,7 +232,7 @@
                 android:padding="5dp"
                 android:textColor="@color/white"
                 android:layout_margin="3dp"
-                android:background="@drawable/round_red"
+                android:background="@drawable/ripple_operators"
                 android:onClick="OnOperator"
                 android:text="-" />
         </LinearLayout>
@@ -255,7 +254,7 @@
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:layout_margin="3dp"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="clickdot"
                 android:text="." />
             <Button
@@ -268,7 +267,7 @@
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:layout_margin="3dp"
-                android:background="@drawable/round"
+                android:background="@drawable/button_ripple"
                 android:onClick="Ondigit"
                 android:text="0" />
 
@@ -283,7 +282,7 @@
                 android:textSize="25sp"
                 android:padding="5dp"
                 android:textColor="@color/white"
-                android:background="@drawable/round_red"
+                android:background="@drawable/ripple_operators"
                 android:onClick="onclr"
                 android:text="CLR" />
 
@@ -297,7 +296,7 @@
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 android:padding="5dp"
-                android:background="@drawable/round_red"
+                android:background="@drawable/ripple_operators"
                 android:onClick="OnOperator"
                 android:text="+" />
 
@@ -320,7 +319,7 @@
                 android:padding="5dp"
                 android:textColor="@color/white"
                 android:layout_margin="3dp"
-                android:background="@drawable/round_red"
+                android:background="@drawable/ripple_operators"
                 android:onClick="OnOperator"
                 android:text="÷" />
             <Button
@@ -333,7 +332,7 @@
                 android:padding="5dp"
                 android:textColor="@color/white"
                 android:layout_margin="3dp"
-                android:background="@drawable/round_red"
+                android:background="@drawable/ripple_operators"
                 android:onClick="percent"
                 android:text="%" />
 
@@ -342,7 +341,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:background="@drawable/round_darkred"
+                android:background="@drawable/result_ripple"
                 android:onClick="onequal"
                 android:padding="5dp"
                 android:paddingTop="3dp"
